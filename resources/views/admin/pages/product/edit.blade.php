@@ -17,7 +17,7 @@
                         <label class="col-md-3 control-label" for="product_image">Product Image</label>
     
                         <div class="col-md-9">
-                            <img id="blah" src="{{$product->image ? asset('storage/app/'.$product->image) : asset('storage/app/imgplaceholder.jpg')}}" alt="{{asset('storage/app/imgplaceholder.jpg')}}" class="imgPreview" />
+                            <img id="blah" src="{{$product->image ? asset('storage/app/'.$product->image) : asset('public/images/imgplaceholder.jpg')}}" alt="{{asset('storage/app/imgplaceholder.jpg')}}" class="imgPreview" />
                             <input type="file" class="form-control" id="product_image" name="product_image" style="display: none;">
                         </div>
                     </div>
